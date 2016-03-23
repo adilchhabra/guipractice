@@ -14,6 +14,8 @@ public class UseSimple extends JFrame {
 			theFrame = new Simple1();
 		else if(args[0].equals("2"))
 			theFrame = new Simple2();
+		else if(args[0].equals("3"))
+			theFrame = new Simple3();
 		else
 			theFrame = new Simple1();
 
